@@ -1,0 +1,132 @@
+:root {
+    --bg: #D6E2EF;
+    --blue: #90ADC6;
+    --blue1: #637895;
+    --black: #191919;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: 'Raleway', sans-serif;;
+}
+
+* {
+    text-decoration: none;
+    outline: none;
+    color: #010101;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bg);
+}
+
+.judul {
+    font-size: 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 1px 1px #637895;
+}
+
+.navbartext {
+    font-weight: 400;
+    justify-content: space-between;
+    padding: 0.8rem 7%;
+}
+
+.navbartext a {
+    margin: 0 1rem;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 0.5rem 15%;
+}
+
+.texthome {
+    padding: 1.9rem 0;
+    border-bottom: 3px solid var(--blue);
+    border-radius: 1%;
+}
+.text1 {
+    font-size: 1.4rem;
+    margin-block: 0;
+}
+
+.text2 {
+    font-weight: 800;
+    font-size: 5rem;
+    margin-block: 0;
+}
+
+.text3 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--blue1);
+    margin-block: 0;
+}
+img {
+    border-radius: 50%;
+    border: 10px solid var(--blue);
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    min-height: 100vh;
+    padding: 0.5rem 12%;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+.kalimat {
+    color: var(--blue1);
+    font-weight: 700;
+    margin-block: 0;
+}
+
+.anakkalimat {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-block: 5px;
+}
+
+.about1 {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10%;
+}
+
+.about2 {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10%;
+}
+
+footer {
+    
+    text-align: center;
+    padding: 0.6rem ;
+    margin-bottom: 0;
+}
